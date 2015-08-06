@@ -11,7 +11,10 @@ namespace BasicConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            Console.WriteLine(SubMessage());
             Console.ReadKey();
         }
+
+        private static string SubMessage() => $"3=={3}";
     }
 }
