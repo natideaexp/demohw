@@ -8,6 +8,8 @@ namespace BasicConsole
 {
     class Program
     {
+        private static readonly string Value = "Popular";
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
@@ -15,6 +17,6 @@ namespace BasicConsole
             Console.ReadKey();
         }
 
-        private static string SubMessage() => $"3=={3}";
+        private static string SubMessage() => $"3=={3} and Value=={Value}";
     }
 }
